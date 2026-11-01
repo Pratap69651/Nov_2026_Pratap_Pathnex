@@ -1,0 +1,56 @@
+🔹 Docker
+# Docker Installation & First Container
+docker --version
+docker run ubuntu echo "Hello Pathnex"
+
+
+docker --version
+docker run ubuntu echo "hello pathnex"
+docker run ubbuntu
+docker run ubuntu
+docker run ubuntu
+docker run ubuntu echo " hello pathnex with Sagar"
+docker run ubuntu  echo "hii"
+docker run ubuntu echo " hello
+docker run ubuntu
+docker run ubuntu
+docker run ubuntu
+docker run ubuntu echo " Hello Pathnex with Sagar"
+
+
+# Docker File
+FROM ubuntu:22.04
+CMD ["echo", "Hello Pathnex"]
+
+
+FROM ubuntu:22.04
+CMD ["echo", "hello"]
+
+FROM ubuntu:26.04
+CMD ["echo", "hii"]
+
+FROM ubuntu:24.04
+CMD ["echo", "Hello Sagar"]
+
+FROM ubuntu:24.04
+CMD ["echo", "hii"]
+
+FROM ubuntu:22.04
+CMD ["echo", "hii Sagar"]
+
+FROM ubuntu:26.04
+CMD ["echo", "Hello Pathnex with Sagar"]
+
+FROM ubuntu:22.04
+CMD ["echo", "hii Sagar"]
+
+FROM ubuntu:24.04
+CMD ["echo", "Hello PAthnex"]
+
+FROM ubuntu:24.04
+CMD ["echo", "Hi"]
+
+FROM ubuntu:26.04
+CMD ["echo", "Hello Pathnex with Sagar"]
+
+

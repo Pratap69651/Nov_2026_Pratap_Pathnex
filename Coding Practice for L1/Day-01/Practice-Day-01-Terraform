@@ -1,0 +1,178 @@
+## 🔹 Terraform Task — Create EC2 (c5.xlarge)
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami           = "ami-0abcd1234abcd1234"
+  instance_type = "c5.xlarge"
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "ami-0abc1234d123"
+  instance_type = "c5.large"
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-souht-1"
+}
+
+resource "aws_instance" "pathnexEC2" {
+  ami = "ami-012bcg2345gdf"
+  instance_type = "m7i-flex.large"
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "abcvd145gvf6gh77"
+  instance_type = "c5.large"
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "EC2" {
+  ami = "shg465372hbgj8"
+  instance_type = "c5.large"
+
+  tags = {
+    Name = "EC-2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "EC2" {
+  ami = "mnhaj675341rf40"
+  instance_type = "m7i-flex.large"
+
+  tags = {
+    Name = "EC-2"
+
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+ }
+
+resource "aws_instance" "ec2" {
+  ami = "vgta24589jui0"
+  instance_type = "m7i-flex.large"
+
+  tags = {
+    Name = "EC_2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-souht-1"
+ }
+
+resource "aws_instance" "ec2" {
+  ami = "anij5342678uyhy90"
+  instance_type = "c5.large"
+
+  tags = {
+    Name = "ec-2"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "mnj78654rtr90"
+  instance_type = "c5.large"
+
+  tags = {
+    Name = "ec-2"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "mnhbg6537829kio09"
+  instance_type = "c5.large"
+
+  tags = {
+    Name = "ec-2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec-2" {
+  ami = " nmnjf43567gh09"
+  instance_type = "c5.2xlarge"
+
+  tags = {
+    Name = "ec-2"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec" {
+  ami = "cnhb5367281ju09"
+  instance_type = "c5.large"
+
+  tags = {
+    Name = "ec-2"
+  }
+}
+
+provider "aws" {
+  region = "mnjh7863541ki90"
+}
+
+resource "aws_instance" "ec2" {
+  ami = " mnbhj76845361lo09"
+  instace_type = "m7i-flex.large"
+
+  tags = {
+    Name = "ec-2"
+  }
+}
+
