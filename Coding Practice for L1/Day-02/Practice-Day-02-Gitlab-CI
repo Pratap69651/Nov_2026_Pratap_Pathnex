@@ -1,0 +1,313 @@
+## 🔹 GitLab CI — Maven Build
+
+stages:
+  - build
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven:3.8.1-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile
+
+maven-test:
+  stage: test
+  image: maven:3.8.1-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn test
+
+maven-package:
+  stage: package
+  image: maven:3.8.1-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn package
+
+
+stages:
+  - build
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven:3.8.1-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile
+
+maven-test:
+  stage: test
+  image: maven-3.8.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app.git
+    - mvn test
+
+maven-package:
+  stage: apckage
+  image: maven:3.8.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn package
+
+
+
+stages:
+  - build
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven-3.8.0-jdk-17
+  script: 
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile
+
+maven-test:
+  stage: test
+  image: maven:3.8.0-djk-17
+  script:
+    - git clone https://github.com/Pathenx/sample-java-app.git
+    - cd sample-java-app
+    - mvn test
+
+maven-package:
+  stage: package
+  image: maven:3.8.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn package
+
+
+stages:
+  - build 
+  - test 
+  - package
+
+maven-build:
+  stage: build
+  image: maven-3.9.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile
+
+maven-test:
+  stage: test
+  image: maven-3.9.0-jdk-25
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn test
+
+maven-package:
+  stage: package
+  image: maven-3.9.0-jdk-25
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn package
+
+stages:
+  - build
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven-3.9.0-jdk-25
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean package
+
+maven-test:
+  stage: test
+  image: maven-3.9.0-jdk-25
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean package
+
+maven-package:
+  stage: package
+  image: maven-3.9.0-jdk-25
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn package
+
+stages:
+  - build 
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven-3.9.0-jdk-25
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean package
+
+maven-test:
+  stage: test
+  image: maven-3.9.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn test
+
+maven-package:
+  stage: package
+  image: maven-3.9.0-jdk-17
+  script: 
+    - cd sample-java-app
+    - mvn package
+
+stages:
+  - build
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven-3.9.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean package
+
+maven-test:
+  stage: test
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn test
+
+maven-package:
+  stage: package
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sample-java-app.git
+    - mvn package
+
+stages:
+  - build
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven-3.9.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app.git
+    - mvn clean package
+
+maven-test:
+  stage: test
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn test
+
+maven-package:
+  stage: package
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn package
+
+stages:
+  - build 
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven-3.9.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean package
+
+maven-test:
+  stage: test
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn test
+
+maven-package:
+  stage: package
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn package
+
+
+stages:
+  - build
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven-3.9.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean package
+
+maven-test:
+  stage: test
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sapmle-java-app
+    - mvn test
+
+maven-package:
+  stage: package
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn package
+
+
+stages:
+  - build
+  - test
+  - package
+
+maven-build:
+  stage: build
+  image: maven-3.9.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean package
+
+maven-test:
+  stage: test
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn test
+
+maven-package:
+  stage: package
+  image: maven-3.9.0-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn package

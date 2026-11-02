@@ -1,0 +1,40 @@
+🔹 Shell Script — Disk Usage
+#!/bin/bash
+df -h
+
+### SHell script to check diks Usage
+#!/bin/bash
+df-h
+free -m
+
+#!/bin/bash
+df -h
+free -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
