@@ -1,0 +1,83 @@
+## 🔹 Shell Script — Print Date & Hostname
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+
+#!/bin/bash
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+

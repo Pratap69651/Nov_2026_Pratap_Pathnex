@@ -1,0 +1,268 @@
+# Kubernetes — Deployment with 2 Replicas
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: app
+          image: nginx
+          ports:
+            - containerPort: 80
+
+
+#### Kuberntes - Deployment with 2 replicas
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: pathnex-app
+  templates:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: app
+          image: nginx
+          ports:
+            - containerPort: 80
+
+
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 2
+  selectors:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: app
+          image: nginx
+          ports:
+            - containerPort: 80
+
+
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 3
+  selectors:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels: 
+        app: pathnex-app
+    spec:
+      containers:
+        - name: app
+          image: nginx
+          ports:
+            - containerPort: 80
+
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: pathnex-app
+spec:
+  replicas: 2
+  selectors:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - conatinerPort: 80
+
+apiVersion: app/v1
+kind: Dployment
+metadata:
+  name: pathnex-deployment
+spec: 
+  replicas: 2
+  selectors:
+    matchLabels: 
+      app: pathnex-app
+  template:
+    metadata:
+      labels: 
+       app: apthnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+apiVersion: app/v1 
+kind: Deployment
+metadata: 
+  name: pathnex-deployment
+spec:
+  replicas: 2
+  selectors:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - conatinerPort: 80
+
+
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 2
+  selectors:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec: 
+      containers:
+        - name: web
+          image: nginx
+          ports: 
+            - containerPort: 80
+
+
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 2
+  selectors:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 2
+  selectors:
+    matchLabels: 
+      app: pathnex-app
+  template:
+    metadata:
+      labels: 
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports: 
+            - containerPort: 80
+
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 4
+  selectors:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 3
+  selectors:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+apiVersion: app/v1
+kind: Deployment
+metadata: 
+  name: pathnex-deployment
+spec:
+  replicas: 2
+  selectors:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+

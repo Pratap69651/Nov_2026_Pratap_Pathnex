@@ -1,0 +1,248 @@
+## Kubernetes TAsk--Create Nginx POD
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx: latest
+      ports: 
+        - containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sagar-pod
+spec:
+  conatiners:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports: 
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  nmae: pathnex-pod 
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports: 
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec: 
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports: 
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports: 
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathenx-pod
+spec:
+  containers:
+    - name: web
+      image: ngnix:latest
+      ports:
+        - containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathenx-pod
+spec:
+  containers:
+    - name: web
+      image: nginx
+      ports:
+        - containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec: 
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports: 
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathenx-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports: 
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnec-pod
+spec:
+  containers:
+    - name: nginx
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+	- containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec: 
+  containers:
+    - name: web
+      image: nginx:latest
+      ports:
+	- containerPort: 80

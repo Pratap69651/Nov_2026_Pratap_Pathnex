@@ -1,0 +1,99 @@
+🔹 Docker
+# Docker Images & Containers
+docker pull ubuntu
+docker images
+docker ps -a
+
+1.
+docker pull ubuntu
+socker images
+docker ps -a
+
+2.
+docker pull ubuntu
+docker images 
+docker ps -a
+
+docker pull ubuntu
+docker images
+docker ps -a
+
+docker pull ubuntu
+docker images
+docker ps -a
+
+docker pull ubuntu
+docker images
+docker ps -a
+
+docker pull ubuntu
+docker images
+docker ps -a
+
+docker pull ubuntu
+docker images
+docker ps -a
+
+docker pull ubuntu
+docker images
+docker ps -a
+
+docker pull ubuntu 
+docker images
+docker ps -a
+
+docker pull ubuntu
+docker images
+docker ps -a
+
+
+
+
+# Docker File
+FROM ubuntu:22.04
+RUN apt update
+CMD ["echo", "Hello Pathnex"]
+
+
+### Docker File 
+FROM ubuntu:24.04
+RUN apt update
+CMD ["echo", "Hello Pathnex"]
+
+FROM ubuntu:26.04
+RUN yum update -y
+CMD["echo", "HI sagar"]
+
+FROM ubuntu:24.04
+RUN apt update
+CMD["echo", "Hello Pathnex with Sagar"]
+
+FROM ubuntu24.04
+RUN apt update
+CMD["echo", "Hi"]
+
+FROM ubuntu:26.04
+RUN apt update
+CMD ["echo", "Hello From Pathnex"]
+
+FROM ubuntu22.04
+RUN yum update
+CMD ["echo", "Hello']
+
+FROM ubuntu24.04
+RUN yum update
+CMD ["echo", "HI"]
+
+FROM ubuntu26.04LTS
+RUN apt update
+CMD ["echo", "SAgar"]
+
+FROM ubuntu24.04LTS
+RUN yum update
+CMD ["echo", "HI Pathnex"]
+
+FROM ubuntu24.04
+RUN spt update
+CMD ["echo", "HI Pathnex"]
+
+

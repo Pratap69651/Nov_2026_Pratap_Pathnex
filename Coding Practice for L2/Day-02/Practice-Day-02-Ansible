@@ -1,0 +1,185 @@
+🔹 Ansible — Install & Enable Nginx
+- name: Install and start Nginx on Pathnex
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+#### Install and Enable Nginx through Ansible
+
+- name: Install and Enable nginx
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install Nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+- name: Install and ENable
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Isntall Nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable
+      service: 
+        name: nginx
+        state: started
+        enabled: yes
+
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+- name: Install and Enable
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+- name: Install and Enable nginx
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+- name: Install and Enable nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+- name: Install and Enable nginx
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: install nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+- name: Istall nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Isntall nginnx
+      yum:
+        name: nginx
+        state: present
+
+    - name: ENable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+

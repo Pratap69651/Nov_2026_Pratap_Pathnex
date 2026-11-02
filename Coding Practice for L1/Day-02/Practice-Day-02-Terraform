@@ -1,0 +1,172 @@
+## 🔹 Terraform — EC2 with Tags (r5.2xlarge)
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami           = "ami-0abcd1234abcd1234"
+  instance_type = "r5.2xlarge"
+
+  tags = {
+    Name        = "Pathnex-Server"
+    Environment = "Training"
+    Owner       = "PathnexStudent"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "abc123nhg567jkl90"
+  instance_type = "r5.2xlarge"
+
+  tags = {
+    Name = "Pathnex-EC2"
+    Environment = "Training"
+    Owner = "Pathnex-Student"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws-instance" "PathnexEc2" {
+  ami = "anh234jnfd78uy9"
+  instance_type = r5.2xlarge"
+
+  tags = {
+    Name = "Pathnex-EC2"
+    Environment = "Training"
+    Owner = "Pathnex-Student"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "nfbh65743ght980"
+  instance_type = "r5.2xlarge"
+
+  tags = {
+    Name = "Pathnex"
+    Environment = "Training"
+    Owner = "Student"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "rthg65437890oi90"
+  instance_type = "r5.2xlarge"
+
+  tags = {
+    Name = "Pathnex"
+    Environment = "Training"
+    Owner = " Student"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "anb765533hjgu90"
+  instance_type = "r5.2xlarge"
+
+  tags = {
+    Name = "Pathnex"
+    Environment = "Training"
+    Owner = "Student"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "dbnh87618970mk09"
+  instance_type = "r5.2xlarge"
+
+  tags = {
+    Name = "Pathnex"
+    Environment = "Training"
+    Owner = "Student"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "Ec2" {
+  ami = "anjh8760923jk09"
+  instance_type = "r5.2xlarge"
+
+  tags = { 
+    Name = "Pathnex"
+    Environment = "Training"
+    Owner = "Student"
+   }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "nhg657892ghy09"
+  instance_type = "r5.2xlarge"
+
+  tags = {
+    Name = "Pathnex"
+    Environment = "Training"
+    Owner = "Student"
+    }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "hsg76859jk09"
+  instance_type = "r5.2xlarge"
+
+  tags = {
+    Name = "Pathnex"
+    Environment = "Training"
+    Owner = "Student"
+    }
+  }
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws-instance" "ec2" {
+  ami = "nsbh768903hg09"
+  instance_type = "r5.2xlarge"
+
+  tags = {
+    Name = "Pathnex"
+    Environment = "Trainig"
+    Owner = "Student"
+   }
+}
+

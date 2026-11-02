@@ -1,0 +1,80 @@
+## 🔹 Shell Script — Disk Usage
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+lsblk
+du -sh file
+
+
+#!/bin/bash
+df -h
+lscpu
+cat /etc/os-release
+
+#!/bin/bash
+df -h
+lsblk
+ls -la
+top
+
+
+#!/bin/bash
+df -h
+free -h 
+swap -a
+
+#!/bin/bash
+df -h
+top
+ps aux
+
+#!/bin/bash
+df -h
+ll
+ls
+
+
+#!/bin/bash
+df -h
+lsblk
+top
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+  
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+
+#!/bin/bash
+df -h
+lsblk
+ps
+
+#!/bin/bash
+df -h
+du -sh
+
+#!/bin/bash
+df -h
+touch abc
+mkdir logs-1
+
+ 
