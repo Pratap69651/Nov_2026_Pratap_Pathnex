@@ -1,0 +1,137 @@
+## 🔹 Ansible Task — Install Nginx on Pathnex Server
+
+Rewrite this YAML manually:
+
+```yaml
+- name: Install Nginx on Pathnex server
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install nginx
+      yum:
+        name: nginx
+        state: present
+
+
+
+- name: Install Nginx on pathnex
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install Nginx
+      yum:
+	name: nginx
+	state: present
+
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install nginx
+      yum:
+	name: nginx
+	state: present
+
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install nginx
+      apt:
+	name: nginx
+	state: present
+
+
+
+- name: Install nginx
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install Nginx
+      yum:
+	name: nginx
+	state: present
+
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install nginx
+      yum:
+	name: nginx
+	state: present
+
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install nginx
+      yum:
+	name: nginx
+	state: present
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install Nginx
+      yum:
+	name: nginx
+	state: present
+
+
+- name: INStall Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install Nginx
+      yum:
+	name: nginx
+	state: present
+
+- name: INstall nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install Nignx
+      yum:
+	name: nginx
+	state: present
+
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install Nginx
+      yum:
+	name: nginx
+	state: present
+
+
+- name: Install Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install nginx
+      yum:
+	name: nginx
+	state: present
+
+
