@@ -1,0 +1,243 @@
+## 🔹 Terraform — Security Group (r6i.4xlarge EC2)
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_security_group" "PathnexSG" {
+  name        = "PathnexSG"
+  description = "Pathnex SG for SSH"
+
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami                    = "ami-0abcd1234abcd1234"
+  instance_type          = "r6i.4xlarge"
+  vpc_security_group_ids = [aws_security_group.PathnexSG.id]
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-souht-1"
+}
+
+resource "aws_security_group" "PathnexSG" {
+  name = "PathnexSG"
+  description = "Pathnex SG for SSH"
+
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr = ['0.0.0.0/0']
+    }
+  }
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "dfg125674njhuio98"
+  instance_type = "r6i.4xlarge"
+
+  tags = {
+    Name = "PathnexEC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_security-group" "PathnecSG" {
+  name = "Pathnex-SG"
+  description = "Pathnex SG for SSH"
+
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr = ["0.0.0.0/0']
+  }
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "asg46732hjuyhg78"
+  instance_type = "r6i.4xlarge"
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_security_group" "sg3" {
+  name = "pathnexSg"
+  description = "Pathnex SG for SSH"
+
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr = ["0.0.0./0"]
+  }
+}
+resource "aws_instance" "ec2" {
+  ami = "nvmjh647893ko0"
+  instance_type = "r6i.4xlarge"
+  tags = {
+    Name = "EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_security_group" "sg4" {
+  name = "SG4"
+  description = "SG for SSH"
+
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr = ["0.0.0.0/0]
+  }
+}
+resource "aws_instance" "ec2" {
+  ami = "mnvjkifuht8970lo"
+  insatnce_type = "r6i.4xlarge"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+
+rpovider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_security_group" "sg5" {
+  name: "sg5"
+  description = "SG for SSH"
+
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr = ["0.0.0.0/0"]
+  }
+}
+rsource "aws_instance" "ec2" {
+  ami = "kjdhuy876930lo09"
+  instance_type = "r6i.4xlarge"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_security_group" "sg6"
+  name = "sg6"
+  description = "Sg gor SSH"
+ 
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr = ["0.0.0.0/0"]
+  }
+}
+resource "aws_instance" "ec2" {
+  ami = "mkj7689ijuh09lo09"
+  instance_type = "r6i.4xlarge"
+  tags = {
+    Nmae = "ec2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_security_group" "sg7" {
+  name: "sg7"
+  description = "Sg for ssh"
+
+  ingress {
+    form_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr = ["0.0.0.0/0"]
+  }
+}
+resource "aws_instance" "ec2" {
+  ami = "dhgsbu7896530lo09"
+  instance-type = "r6i.5xlarge"
+  tags = {
+    Nmae = "ec2"
+  }
+}
+
+
+provider "aws" [
+  region = "ap-south-1"
+}
+resource "aws_security_group" Sg8" {
+  anme = "Sg8"
+  description = "sg "
+
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr = ["0.0.0.0/0"]
+  }
+}
+resource "aws_instance" "ec2" {
+  ami = "mjfnhs7894653lo098"
+  instance_type = "r6i.4xlarge"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_security_group" "sg9" {
+  name = "sg"
+  description = "Sg"
+
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr = ["0.0.0.0/0"]
+  }
+}
+resource "aws_instance" "ec2" {
+  ami = "hjns876904iko90"
+  instance_type = "r6i.4xlarge"
+  tags = {
+    Name = "Pathnex"
+  }
+}
+
+

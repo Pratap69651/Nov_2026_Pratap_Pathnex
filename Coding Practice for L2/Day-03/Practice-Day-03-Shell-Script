@@ -1,0 +1,52 @@
+🔹 Shell Script — User Info
+#!/bin/bash
+echo "Current user: $(whoami)"
+echo "Current user groups: $(groups)"
+
+
+### User Information
+#!/bin/bash
+echo "Current user: $(whoami)"
+echo "Current user groups; $(groupd)"
+
+
+#!/bin/bash
+echo "Current user: $(whoami)"
+echo "CUrrent user groups: $(groups)"
+
+#!/bin/bash
+echo "Current user: $(whoami)"
+echo "Current user group: $(groups)"
+
+
+#!/bin/bash
+echo "Current user: $(whoami)"
+echo "Current user groups: $(groups)"
+
+#!/bin/bash
+echo "Current user: $(whoami)"
+echo "Current user groups: $(groups)"
+
+
+#!/bin/bash
+echo "Current User: $(whoami)"
+echo "Current user groups: $(groups)"
+
+
+#!/bin/bash
+echo "Current user: $(whoami)"
+echo "Current user groups: $(groups)"
+
+#!/bin/bash
+echo "Current user: $(whoami)"
+echo "Curent user groups: $(groups)"
+
+#!/bin/bash
+echo "Current user: "$(whoami)"
+echo "Current user groups: $(groups)"
+
+#!/bin/bash/
+echo "Currrent user: $(whoami)"
+echo "Current user groups: "$(groups)"
+
+

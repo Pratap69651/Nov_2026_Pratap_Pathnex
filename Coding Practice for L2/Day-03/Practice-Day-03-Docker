@@ -1,0 +1,101 @@
+🔹 Docker
+# Docker File for Nginx Web Server
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/index.html
+
+# HTML
+<h1>Hello Pathnex</h1>
+
+# Bash
+# Real Path
+/usr/share/nginx/html
+
+# Bash
+docker build -t pathnex-nginx .
+docker run -d -p 80:80 pathnex-nginx
+
+
+### Docker file for Nginc web serverr
+FROM nginx:latest 
+COPY index.html /usr/share/nginx/html
+
+# Html
+<h1> Hello Pathnex
+
+## real Path
+/usr/share/nginx/html
+
+# Bash
+docker build -t pathnex-nginx .
+docker run -d -p 80:80 pathnex-nginx
+
+#### Docker file for web server
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/index.html
+
+<h1> Hello Sagar</h1>
+
+docker build -t image1 .
+dokcer run -d -p 80:80 image1 --name container1
+
+
+FROM nginx
+COPY index.html /usr/share/nginx/html/index.html
+<h1>HII </h1>
+
+docker build -t image2 .
+docker run -d -p 80:80 image2 --name container2
+
+
+FROM nginx
+COPY index.html /use/share/nginx/html/index.html
+
+docker build -t image3 .
+docker run -d -p 80:80 image3 --name container3
+
+
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/index.html
+
+docker build -t image4 .
+docker run -d -p 80:80 image4 --name con
+
+FROM nginx
+COPY index.html /usr/share/nginx/html/index.html
+
+docker build -t image5 .
+docker run -d -p 80:80 image5
+
+FROM nginx
+COPY index.html /usr/share/nginx/html/index.html
+
+dokcer build -t image6 .
+dokcer run -d -p 80:80 image6 -name con6
+
+FROM nginx
+COPY nginx.html /usr/share/nginx/htnl/index.html
+
+docker build -t image7 .
+dpkcer run -d -p 80:80 image7 --name con7
+
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/index.html
+
+dokcer build -t image8 .
+docker run -d -p 80:80 image8 --name con8
+
+
+
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/index.html
+
+docker build -t image9 .
+docker run -d -p 80:80 image9 --name con9
+
+FROM nginx
+COPY index.html /usr/share/nginx/html/index.html
+
+dokcer build -t image10 .
+docker run -d -p 80:80 image10 --name con10
+
+

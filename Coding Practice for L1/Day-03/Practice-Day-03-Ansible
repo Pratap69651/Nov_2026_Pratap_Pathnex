@@ -1,0 +1,140 @@
+# Day 03 — Users, SGs, Env Vars
+
+## 🔹 Ansible — Create User
+
+---
+- name: Create Pathnex user
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Create user pathnex-admin
+      user:
+        name: pathnex-admin
+        shell: /bin/bash
+
+
+- name: Create user
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: user creation
+      user:
+	name: pathnex-admin
+	shell: /bin/bash
+
+
+- name: Create user
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: user creation
+      user:
+	name: admin-user
+	shell: /bin/bash
+
+- name: create user
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: user creation
+      user:
+	name: git-user
+	shell: /bin/bash
+
+
+- name: create user
+  hosts: all 
+  become: yes
+
+  tasks: 
+    - name: user creation
+      user:
+	name: docker-user
+	shell: /bin/bash
+
+
+- name: user creation
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: user create
+      user:
+	name: k8s-user
+	shell: /bin/bash
+
+- name: user creation
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: create user
+      user:
+	name: terraform-user
+	shell: /bin/bash
+
+- name: user creation
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: user create
+      user:
+	name: ansible-user
+	shell: /bin/bash
+
+- name: user creation
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: create user
+      user:
+	name: jenkins-user
+	shell: /bin/bash
+
+- name: user creation
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Create a user
+      user:
+	name: git--user
+	shell: /bin/bash
+
+- name: user creation
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: user create
+      user:
+	name: vim-user
+	shell: /bin/bash
+
+- name: user creation
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: craete a user
+      user:
+	name: curl-user
+	shell: /bi/bash
+
+
+- name: user creation
+  hosts: all
+  become: yes
+  tasks: 
+    - name: Craete a User
+      user:
+        name: git-user
+        shell: /bin/bash
+
+

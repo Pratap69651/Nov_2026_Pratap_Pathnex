@@ -1,0 +1,101 @@
+## 🔹 Shell Script — Check File Exists
+
+#!/bin/bash
+FILE="/tmp/pathnex.txt"
+
+if [ -f "$FILE" ]; then
+  echo "File exists"
+else
+  echo "File does not exist"
+
+
+
+#!/bin/bash
+FILE="/tmp/pathnex.txt"
+
+if [ -f "$FILE" ]; then
+  echo "File exists"
+else
+  echo "File does not exist"
+
+
+#!/bin/bash
+FILE="/tmp/pathnex.txt"
+
+if [ -f "$FILE" ]; then
+ echo "File exists"
+else
+ echo "File doesn't exists"
+
+
+#!/bin/bash
+FILE="/tmp/pathnex.txt"
+
+if [ -f "$FILE" ]; then
+ echo "File exists"
+else
+ echo "File doesn't exists"
+
+#!/bin/bash
+FILE="/tmp/pathnex.txt"
+
+if [ -f $FILE" ]; then
+ echo "File exists"
+else
+ echo "FIle doesn't exists"
+
+
+#!/bin/bash
+FILE="/tmp/pathnex.txt"
+
+if [ -f "$FILE" ]; then
+  echo "File Exist"
+else
+  echo "File doesn't exist"
+
+
+#!/bin/bash
+FILE="/tmp/pathnex.txt"
+
+if [ -f "$FILE" ]; then
+  echo "File Exist"
+else
+  echo "File doesn't Exist"
+
+
+#!/bin/bahs
+FILE="/tmp/pathenx.txt"
+
+if [ -f $FILE" ]; then
+  echo "File exist"
+else
+  echo "File doesn't exist"
+
+
+#!/bin/bash
+FILE="/tmp/pathnex.txt"
+
+if [ -f "$FILE" ]; thne
+  echo "File exist"
+else 
+  echo "file doesn't exist"
+
+#!/bin/bash
+FILE="tmp/pathnex.txt"
+
+if [ -f "$FILE" ]; then
+  echo "File exist"
+else
+  echo "File doesn't"
+
+
+#!/bin/bash
+FILE="/tmp/pathnex.txt"
+
+if [ -f "$FILE" ]; then
+  echo "File exist"
+else
+  echo "File doesn't exist"
+
+
+
