@@ -1,0 +1,173 @@
+Day 03 — Ansible, Terraform & Kubernetes Basics
+🔹 Ansible — Install Apache and Start Service
+- name: Install and Start Apache
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install apache
+      yum:
+        name: httpd
+        state: present
+
+    - name: Start apache
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+### Install and Enable apache
+
+- name: Install Apache and then enable
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install apache
+      yum:
+        name: httpd
+        state: present
+
+    - name: Enable
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+
+- name: Install and enable Apache
+  hosts: all
+  become: yes
+  tasks: 
+    - name: inastall apache
+      apt: 
+        name: httpd
+        state: present
+
+    - name: Enable
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+
+- name: Install apache and Enable
+  hosts: all
+  become: yes
+  tasks: 
+    - name: Install
+      yum:
+        name: httpd
+        state: present
+
+    - anme: Enable apache
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+
+- name: Install and Enble
+  hosts: all
+  become: yes
+  tasks: 
+    - name: Install Apache
+      yum:
+        name: httpd
+        state: present
+
+    - name: Enbale apache
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+- name: Install apache
+  hosts: all
+  become: yes
+  tasks: 
+    - name: insatll aapche
+      yum:
+        name: httpd
+        state: present
+
+    - name: Enbale
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+
+- name: Install apache
+  hosts: all
+  become: yes
+  tasks: 
+    - name: Install apache
+      yum:
+        name: httpd
+        state: present
+
+    - name: Enabel
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+
+- name: INatll
+  hosts: all
+  become: yes
+  tasks: 
+    - name: Install apache
+      yum:
+        name: httpd
+        state: present
+
+    - name: Enable apache
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+- name: Install apache
+  hosts: all
+  become: yes
+  tasks:
+    - name: Isntall apache
+      yum:
+        name: httpd
+        state: present
+
+    - name: Enable
+      service:
+        name: htppd
+        state: started
+        enabled: yes
+
+
+
+- name: installl apache
+  hosts: all
+  become: yes
+  tasks: 
+    - name: install apache
+      yum:
+        name: httpd
+        state: present
+
+    - name: Enable 
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+   
+- name: Install and ENable apache
+  hosts: all
+  become: yes
+  tasks: 
+    - name: install apache
+      yum:
+        name: httpd
+        state: started
+        enabled: yes
+
+

@@ -1,0 +1,154 @@
+## 🔹 Kubernetes — Add Environment Variables
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-env-pod
+spec:
+  containers:
+    - name: app
+      image: nginx
+      env:
+        - name: APP_ENV
+          value: "production"
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: app
+      image: nginx
+      env:
+	- name: APP_ENV
+	  value: "production"
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod 
+spec:
+  containers:
+    - name: app
+      image: nginx
+      env:
+	- name: APP_ENV
+	  value: "production"
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - name: pathnex-pod
+      image: nginx
+      env:
+	- name: PP_ENV
+	  value: "production"
+
+apiVersion: v1
+kind: Pod
+mmetadata:
+  name: pathnex-pod
+spec:
+  conatiners:
+    - name: app
+      image: nginx
+      env:
+        - name: APP_ENV
+          value: "production"
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: pathnex-pod
+      image: nginx
+      env:
+        - name: APP_ENV
+          value: "production"
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - nmae: pathnex-pod
+      image: nginx
+      env:
+        - name: APP_ENV
+          value: "production"
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathenex-po
+spec:
+  containers:
+    - name: pathnex-pod
+      image: nginx
+      env:
+        - name: APP_ENV
+          value: "production"
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - name: pathenx-pod
+      image: nginx
+      env: 
+        - name: APP_ENV
+          value: "production"
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: pathnex-pod
+      image: nginx
+      env:
+        - name: APP_ENV
+          value: "production"
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec: 
+  containers: 
+    - name: pathnex-pod
+      image: nginx
+      env:
+        - name: APP_ENV
+          value: "production"
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name:  pathnex-pod
+spec:
+  containers:
+    - name: pathnex-pod
+      image: nginx
+      env:
+        - name: APP_ENV
+          value: "rpoduction"
+
+

@@ -1,0 +1,135 @@
+ Terraform — EC2 Instance (t3.medium)
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami           = "ami-0abcd1234abcd1234"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "Pathnex-T3"
+  }
+}
+
+#### craete ec2 instance (t3.medium)
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "fhgt6754389iko09"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "Pathnexec2"
+  }
+}
+
+provider "aws" {
+  region = ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "anmj98746yth09"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_insatnce" "ec2" {
+  ami  = "bmnjg876590oki09"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "Pathnex"
+  }
+} 
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "mnij987465ty09"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "mnbjhg897564koi09"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "pathnex"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws-instance" "ec2" {
+  ami = "nbjh56748uji90"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "lkmj876490oi"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_instance" "ec2" {
+  ami = "vnhb576390koi"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "Pathnex"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "ec2" {
+  ami = "mnjhndy876543rft09"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "Pathnex"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_instance" "ec2" {
+  ami = "anhg87965ty09"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "ec2"
+  }
+}  

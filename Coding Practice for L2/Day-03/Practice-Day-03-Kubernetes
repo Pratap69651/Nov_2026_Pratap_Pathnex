@@ -1,0 +1,233 @@
+
+🔹 Kubernetes — Create a ReplicaSet with 3 Replicas
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: pathnex-replicaset
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: app
+          image: nginx
+          ports:
+            - containerPort: 80
+
+
+### replicaset with 3 REplicas
+
+apiVersion: app/v1
+kind: ReplicaSet
+metadata:
+  name: pathnex-replicaset
+spec:
+  replicas:3
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers: 
+        - name: web
+          image: nginx
+          ports:
+          - containerPort: 80
+
+
+apiVersion: app/v1
+kind: ReplicaSet
+metadata:
+  name: pathnex-replicaset
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+apiVersion: app/v1
+kind: ReplicaSet
+metadata:
+  name: pathnex-app
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+
+apiVersion: app/v1
+kind: ReplicaSet
+metadata:
+  name: pathnex-app
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec: 
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+apiVersion: app/v1
+kind: Replicaset
+metadata:
+  name: pathnex-replicaset
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+apiVersion: app/v1
+kind: ReplicaSet
+metadata:
+  name: pathnex-app
+spec:
+  replicaset: 4
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports: 
+            - containerPort: 80
+
+
+
+apiVersion: app/v1
+kind: ReplicaSet
+metadata:
+  name: pathnex-replicaset
+spec:
+  replicas: 4
+  selector: 
+    matchLabels:
+      app: pathnex-app
+  template: 
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+apiVersion: app/v1
+kind: ReplicaSet
+metadata:
+  name: pathnex-replicaset
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+
+ 
+apiVersion: app/v1
+kind: ReplicaSet
+metadata: 
+  name: pathnex-replicaset
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+
+apiVersion: app/v1
+kind: ReplicaSet
+metadata:
+  name: pathnex-replicaset
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: pathenx-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: web
+          image: nginx
+          ports:
+            - containerPort: 80
+
+ 

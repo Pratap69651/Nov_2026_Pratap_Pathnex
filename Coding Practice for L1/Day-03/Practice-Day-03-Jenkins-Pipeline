@@ -1,0 +1,244 @@
+# NodeJS Build
+## 🔹 Jenkins Pipeline — NodeJS Build
+You will learn how to **install dependencies, run tests, and build a NodeJS project**.
+
+pipeline {
+    agent any
+    tools {
+        nodejs 'NodeJS-16'
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/Pathnex/sample-node-app.git'
+            }
+        }
+        stage('Install Dependencies') {
+            steps {
+                sh 'npm install'
+            }
+        }
+        stage('Run Tests') {
+            steps {
+                sh 'npm test'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'npm run build'
+            }
+        }
+    }
+}
+
+
+pipeline {
+  agent any
+  tools {
+    nodejs 'NodeJS-16'
+    }
+  stages {
+    stage('Checkout') {
+      steps {
+	git url: 'https://github.com/Pathnex/sample-node-app.git'
+	  }
+	}
+    stage('Install Dependencies') {
+      steps {
+	sh 'npm install'
+	  }
+	}
+    stage('Run Test') {
+      steps {
+	sh 'npm test'
+	  }
+	}
+    stage('Build') {
+      steps {
+	sh 'npm run build'
+	  }
+	}
+  }
+}
+
+pipeline {
+  agent any
+  tools {
+    nodejs 'NodeJS-16'
+	}
+  stages {
+    stage('Checkout') {
+      steps {
+	git url: 'https://github.com/Pathnex/sample-node-app.git'
+	  }
+	}
+    stage('Install Dependencies') {
+      steps {
+	sh 'npm install'
+	  }
+	}
+    stage('Run Test') {
+      steps {
+	sh 'npm test'
+	  }
+	}
+    stage('Build') {
+      steps {
+	sh 'npm run build'
+	  }
+	}
+  }
+}
+
+
+pipeline {
+  agent any
+  tools {
+    nodejs 'NodeJS-16'
+  }
+  stages {
+    stage('Checkout') {
+      steps {
+        git url: 'https://github.com/Pathenx/sapmle-node-app.git'
+      }
+   }
+    stage('Install Dependencies') {
+      steps {
+        sh 'npm install'
+      }
+    }
+    stage('Run test') {
+      steps {
+        sh 'npm test'
+      }
+  }
+    stage('Build') {
+      steps {
+        sh 'npm run build'
+        }
+      }
+    }
+  }
+
+
+
+pipeline {
+  agent any 
+  tools {
+    nodejs 'NodeJS-16'
+  }
+  stages {
+    stage('Checkout')
+      steps {
+        git url: 'https://githu.com/Pathnex/sample-node-app.git'
+    }
+  }
+    stage('Install Dependencies') {
+      steps {
+        sh 'npm install'
+    }
+  }
+    stage('Run test') {
+      steps  {
+        sh 'npm test'
+    }
+  }
+    stage('Build') {
+      steps {
+        sh 'npm run build'
+        }
+      }
+    }
+  }
+
+
+pipeline {
+  agent any
+  tools {
+    nodejs 'NodeJs-16'
+  }
+  stages {
+    stage('Checkout') {
+      steps {
+        git ur: 'https://github.com/Pathnex/sample-node-app.git'
+    }
+  }
+    stage('Install Dependencies') {
+      steps {
+        sh 'npm install'
+    }
+  }
+    stage('Runn test') {
+      steps {
+        sh 'npm test'
+    }
+  }
+    stage('Build') {
+      steps {
+        sh 'npm run build'
+        }
+      }
+    }
+  }
+
+
+pipeline {
+  agent any
+  tools {
+    nodejs 'NodeJS-16'
+  }
+  stages {
+    stage('Checkout') {
+      steps {
+        git url: 'htttps://github.com/Pathnex/sample-node-app.git'
+  }
+}
+    stage('Install Dependencies') {
+      steps {
+        sh 'npm install'
+  }
+}
+    stage('Run test') {
+      steps {
+        sh 'npm test'
+  }
+}
+    stage('Build') {
+      steps {
+        sh 'npm run build'
+      }
+    }
+  }
+}
+
+
+pipeline {
+  agent any
+  tools {
+    nodejs 'NodeJS-16'
+  }
+  stages {
+    stage('Checkout') {
+      steps {
+        git url: 'https://github.com/Pathnex/sample-node-app.git'
+  }
+}
+    stage('Install Dependencies') {
+      steps {
+        sh 'npm install'
+  }
+}
+    stage('Run test') {
+      steps {
+        sh 'npm test'
+  }
+}
+    stage('Build') {
+      steps {
+        sh 'npm build'
+      }
+    }
+  }
+}
+
+
