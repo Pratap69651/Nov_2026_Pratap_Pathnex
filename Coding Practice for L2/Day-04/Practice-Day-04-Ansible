@@ -1,0 +1,117 @@
+🔹 Ansible — Install and Configure Nginx
+- name: Install and configure Nginx
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install nginx
+      yum:
+        name: nginx
+        state: present
+    - name: Configure nginx
+      template:
+        src: nginx.conf.j2
+        dest: /etc/nginx/nginx.conf
+    - name: Start nginx service
+      service:
+🔹 Docker
+        name: nginx
+        state: started
+        enabled: yes
+
+
+- name: Install and Configure Nginx
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install Nginx
+      yum:
+        name: nginx
+        state: present
+    - nmae: Configure nginx
+      template:
+        src: nginx.conf.j2
+        dest: /etc/nginx/nginx.conf
+    - name:
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+- name: Install and Configure and start
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install
+      yum:
+        name: nginx
+        state: present
+    - name: Cofigure
+      template:
+        src: nginx.conf.j2
+        dest: /etc/nginx/nginx.conf
+    - name: start service
+      service:
+        name: nginx
+        state: started
+        enbaled: yes
+
+
+- name: INstall, Configure, Start
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install
+      yum:
+        name: nginx
+        state: present
+    - name: Configure
+      template:
+        src: nginx.conf.j2
+        dest: /etc/nginx/nginx.conf
+    - name: Start Service
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+- name: Istall cobnfigure servicer start
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install
+      yum:
+        name: nginx
+        state: present
+    - name: Configure
+      template:
+        src: ngnix.conf.j2
+        dest: /etc/nginx.conf
+    - name: Service start
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+- name: insatll configure servcce
+  hosts: all
+  become: yes
+  tasks: 
+    - name: Install
+      yum:
+        name: nginx
+        state: present
+    - name: Configure
+      template:
+        src: nginx.conf.j2
+        dest: /etc/nginx.conf
+    - name: Service start
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+
+
