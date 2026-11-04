@@ -1,0 +1,129 @@
+## 🔹 Terraform — EC2 with Key Pair (c6i.8xlarge)
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_key_pair" "PathnexKey" {
+  key_name   = "PathnexKey"
+  public_key = "ssh-rsa AAAA...."
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami           = "ami-0abcd1234abcd1234"
+  instance_type = "c6i.8xlarge"
+  key_name      = aws_key_pair.PathnexKey.key_name
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_key_pair" "PathenxKey" {
+  key_name = "Pathenx-Key"
+  public_key = "ssh-rsa HGFHFD@$#!%^&*"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "bdhsg12786nhj980"
+  instance_type = "c6i.8xlarge"
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_key_pair" "PathnexKey" {
+  key_name = "Pathnex-Key"
+  public_key = "ssh-rsa GTRFDSE*&YT%$#EW@!"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "hgs456g3fdhj789"
+  instance_type = "c6i.8xlarge"
+
+  tags = {
+    name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+  }
+resource "aws_key_pair" "ec2" {
+  key_name = "newkey"
+  public_key = "ssh-rsa GHSYBEGT%^$&#536yt"
+}
+resource "aws_instance" "ec2" {
+  ami = "bdnhs6537yhy890lo09"
+  instance_type = "c6i.8xlarge"
+  tags = {
+    Name = "Pathnex-ec2"
+  }
+}
+
+
+
+provider "aws" {
+  region = "ap-south-1"
+  }
+resource "aws_key_pair" "ec2" {
+  key_name = "newkey"
+  public_key = "ssh-rsa GHSYBEGT%^$&#536yt"
+}
+resource "aws_instance" "ec2" {
+  ami = "bdnhs6537yhy890lo09"
+  instance_type = "c6i.8xlarge"
+  tags = {
+    Name = "Pathnex-ec2"
+  }
+}
+
+
+
+provider "aws" {
+  region = "ap-south-1"
+  }
+resource "aws_key_pair" "ec2" {
+  key_name = "newkey"
+  public_key = "ssh-rsa GHSYBEGT%^$&#536yt"
+}
+resource "aws_instance" "ec2" {
+  ami = "bdnhs6537yhy890lo09"
+  instance_type = "c6i.8xlarge"
+  tags = {
+    Name = "Pathnex-ec2"
+  }
+}
+
+
+
+
+provider "aws" {
+  region = "ap-south-1"
+  }
+resource "aws_key_pair" "ec2" {
+  key_name = "newkey"
+  public_key = "ssh-rsa GHSYBEGT%^$&#536yt"
+}
+resource "aws_instance" "ec2" {
+  ami = "bdnhs6537yhy890lo09"
+  instance_type = "c6i.8xlarge"
+  tags = {
+    Name = "Pathnex-ec2"
+  }
+}
+
+
+
