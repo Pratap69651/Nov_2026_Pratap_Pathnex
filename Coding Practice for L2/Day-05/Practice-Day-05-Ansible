@@ -1,0 +1,108 @@
+🔹 Ansible — Create User and Set Permissions
+- name: Create a new user
+  hosts: all
+  become: yes
+  tasks:
+    - name: Create user
+      user:
+        name: pathnex
+        state: present
+        shell: /bin/bash
+    - name: Set permissions for the user
+      file:
+        path: /home/pathnex
+        owner: pathnex
+        group: pathnex
+        mode: '0755'
+
+
+
+#### create User and set permission 
+
+- name: Create user
+  hosts: all
+  become: yes
+  tasks:
+    - name: Create User
+      user:
+        name: pathnex
+        state: present
+        shell: /bin/bash
+    - name: Set Permission 
+      file:
+        path: /home/pathnex
+        owner: pathnex
+        group: pathnex
+        mode: '0755'
+
+
+
+- name: create user
+  hosts: all
+  become: yes
+  tasks:
+    - name: create user
+      user:
+        name: pathnex
+        state: present
+        shell: /bin/bash
+    - name: set permission
+      file:
+        path: /home/pathnex
+        owner: pathnex
+        group: pathnex
+        mode: '0755'
+
+
+
+- name: create user
+  hosts: all
+  become: yes
+  tasks:
+    - name: create user
+      user:
+        name: pathnex
+        state: present
+        shell: /bin/bash
+    - name: set premission
+      file:
+        path: /home/pathnex
+        owner: pathnex
+        group: pathnex
+        mode: '0755'
+
+
+- name: create user
+  hosts: all
+  become: yes
+  tasks: 
+    - name: create user
+      user:
+        name: pathnex
+        state: present
+        shell: /bin/bash
+    - name: set premission
+      file: 
+        path: /home/pathnex
+        owner: pathnex
+        group: pathnex
+        mode: '0755'
+
+
+- name: create user
+  hosts: all
+  become: yes
+  tasks: 
+    - name: create user
+      user: 
+        name: paathnex
+        state: present
+        shell: /bin/bash
+    - name: set premission
+      file:
+        path: /home/pathnex
+        owner: pathnex
+        group: pathnex
+        mode: '0755'
+
+ 
