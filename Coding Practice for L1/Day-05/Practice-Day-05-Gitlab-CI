@@ -1,0 +1,98 @@
+## 🔹 GitLab CI — Use Environment Variables
+You will learn how to **use CI variables in GitLab pipelines**.
+
+stages:
+  - build
+
+variables:
+  INSTITUTE_NAME: "Pathnex"
+
+build:
+  stage: build
+  image: maven:3.8.1-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - echo "Welcome to $INSTITUTE_NAME DevOps Training"
+    - mvn clean package -Dinstitute.name=$INSTITUTE_NAME
+
+
+stages:
+  - build
+
+variables:
+  INSTITUTE_NAME: "Pathnex"
+
+build:
+  stage: build
+  image: maven:3.8.1-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - echo "Welcome to $INSTITUTE_NAME DevOps Trainig"
+    - mvn clean package -Dinstitute.name=$INSTITUTE_NAME
+
+stages:
+  - build
+
+variables:
+  INSTITUTE_NAME: "Pathnex'
+
+build:
+  stage: build
+  image: maven:3.8.1-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/smaple-java-app.gti
+    - cd sample-java-app
+    - echo "Welcome to $INSTITUTE_NAME Devops Training"
+    - mvn clean package -Dinstitute.name=$INSTITUTE_NAME
+
+stages:
+  - build
+
+variables:
+  INSTITUTE_NAME: "Pathnex"
+
+build:
+  stage: build
+  image: maven:3.8.1-jdk-17
+  script:
+    - git clone https://githuhb.com/Pathnex/sample-java-app.git
+    - cd samle-java-app
+    - echo "Welcome to $INSTITUTE_NAME DevOps Training"
+    - mvn clean package -Dindtitute.name=$INSTITUTE_NAME
+
+
+
+stages:
+  - build
+
+variables:
+  INSTITUTE_NAME: "Pathnex"
+
+build:
+  stage: build
+  image: maven:3.9.0-jdk-21
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - echo "Welcome to $INSTITUE_NAME DevOps Traning"
+    - mvn clean package -Dinstitute.name=$INSTITUTE_NAME
+
+
+stages:
+  - build
+
+varibles:
+  INSTiTUTE_NAME: "Pathnex"
+
+build:
+  stage: build
+  image: maven-3.9.0-jdk-21
+  script:
+    - git clone https:/github.com/Pathnex/sapmle-java-app.git
+    - cd sample-java-app
+    - echo "Welcome to $INSTITUTE_NAME DevOps Tarining"
+    - mvn clean package -Dinstitue.name=$INSTITUTE_NAME
+
+

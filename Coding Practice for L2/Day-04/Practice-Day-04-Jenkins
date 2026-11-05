@@ -1,0 +1,144 @@
+Day 04 — Basic CI/CD Concepts with Jenkins & GitLab
+
+
+🔹 Jenkinsfile — Basic CI Pipeline
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building project'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Running tests'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying application'
+            }
+        }
+    }
+}
+
+
+
+##  JENkins CI Pipeline
+
+pipeline {
+  agent any
+  stages {
+    stage('Build) {
+      steps {
+        echo 'Building project'
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'Running tests'
+      }
+    }
+    stage('Deploy') {
+      steps {
+        echo 'Deploying application'
+      }
+    }
+  }
+}
+
+
+
+pipeline {
+  agent  any
+  stages {
+    stage('Build') {
+      steps {
+        echo 'Building project'
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'running tests'
+      }
+    }
+    stage('Deploy') {
+      steps {
+        echo 'Deploying Application'
+      }
+    }
+  }
+}
+
+
+
+
+pipeline {
+  agent any
+  stages {
+    stage('Build') {
+      steps {
+        echo 'Building application'
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'runnuing test'
+      }
+    }
+    stage('Deploy') {
+      steps {
+        echo 'Deploying application'
+      }
+    }
+  }
+}
+
+
+
+piipeline {
+  agent any 
+  stages {
+    stage('Building application') {
+      steps {
+        echo 'Building application'
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'run test'
+      }
+    }
+    stage('Deploy') {
+      steps {
+        echo 'Deploying application'
+      }
+    }
+  }
+}
+
+
+pipeline {
+  agent any 
+  stages {
+    stage('Buid') {
+      steps {
+        echo 'Building application'
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'run test'
+      }
+    }
+    stage('Deploy') {
+      steps {
+        echo 'Deployning apploivation"
+      }
+    }
+  }
+}
+
+
+

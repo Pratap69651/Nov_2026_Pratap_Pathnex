@@ -1,0 +1,119 @@
+## 🔹 Terraform — EC2 with User Data (c6a.12xlarge)
+
+resource "aws_instance" "PathnexEC2" {
+  ami           = "ami-0abcd1234abcd1234"
+  instance_type = "c6a.12xlarge"
+
+  user_data = <<EOF
+#!/bin/bash
+yum install -y httpd
+systemctl start httpd
+EOF
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "ansg34256gh7890"
+  instance_type = "c6i.8xlarge"
+
+  user_data = <<EOF
+#!/bin/bash
+yum install -y httpd
+systemctl start httpd
+EOF
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "ghj675432etfdg90"
+  instance_type = "c6a.12xlarge"
+
+  user_data = <<EOF
+#!/bin/bash
+yum install -y httpd
+systemctl start httpd
+EOF
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "PathnexEC2" {
+  ami = "wrds1552678mjkiu90"
+  instance_type = "c6a.12xlarge"
+
+  user_data = <<EOF
+#!/bin/bash
+yum install -y httpd
+systemctl start httpd
+EOF
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_instance" "ec2" {
+  ami = "kmncdf894mk"
+  instance_type = "c6a.12xlarge"
+  
+  user_data = <<EOF
+#!/bin/bash
+yum install httpd -y
+systemctl start httpd
+EOF
+
+  tags = {
+    Name = "Pathnex-ec2"
+  }
+}
+
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_instance" "ec2" {
+  ami = "jladn09234mko09"
+  instance_type = c6a.12xlarge"
+
+  user_data = <<EOF
+#!/bin/nash
+yum install httpd -y
+systemctl start httpd
+EOF
+
+  tags = {
+    Name = "Pathnex-ec2-5"
+  }
+}
+
+ 
