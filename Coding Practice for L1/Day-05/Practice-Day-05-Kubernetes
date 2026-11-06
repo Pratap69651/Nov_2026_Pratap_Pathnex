@@ -1,0 +1,100 @@
+## 🔹 Kubernetes — Resource Limits
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-limited-pod
+spec:
+  containers:
+    - name: app
+      image: nginx
+      resources:
+        limits:
+          memory: "256Mi"
+          cpu: "500m"
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-limited
+spec:
+  containers:
+    - name: app
+      image: nginx
+      resources:
+	limits:
+	  memory: "256Mi"
+	  cpu: "500m"
+
+apiVerison: v1
+kind: Pod
+metadata: 
+  name: pathnex-limited-pod
+spec:
+  containers:
+    - name: app
+      image: nginx
+      resources:
+        limits:
+	  memory: "256Mi"
+	  cpu: "500"
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-limited-pod
+spec:
+  containers:
+    - name: app
+      image: nginx
+      resources:
+        limits:
+	  memory: "256Mi"
+	  cpu: "500m"
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-limited-pod
+spec:
+  containers:
+    - name: app
+      image: nginx
+      resources:
+	limits:
+	  memory: "256Mi"
+	  cpu: "500m"
+
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - name: app
+      image: nginx
+      resources:
+        limits:
+          memory: "256Mi"
+          cpu: "500m"
+
+
+apiVersion: Pod
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - name: app
+      image: nginx
+      resources:
+        limits:
+          memory: "256Mi"
+          cpu: "500m"
+
+

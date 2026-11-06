@@ -1,0 +1,116 @@
+## 🔹 GitLab CI — Parallel Jobs
+You will learn how to **run parallel jobs in GitLab CI**.
+
+stages:
+  - build-test
+
+maven-build:
+  stage: build-test
+  image: maven:3.8.1-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile
+  parallel: 1
+
+maven-test:
+  stage: build-test
+  image: maven:3.8.1-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn test
+  parallel: 1
+
+
+
+### RUn parallel Jobs
+
+stages:
+  - build-test
+
+maven-build:
+  stage: build-test
+  image: maven:3.8.0-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile
+  parallel: 1
+
+maven-test:
+  stage: build-test
+  image: maven-3.8.8-jdk-21
+  script:
+    - cd sample-java-app
+    - mvn test
+  parallel: 1
+
+
+
+stages: 
+  - build-test
+
+maven-build:
+  stage: build-test
+  image: maven-3.9.0-jdk21
+  script:
+    - git clone https://github.com/Pathnex-java-app.git
+    - cd samlpe-java-app
+    - mvn clean compile
+  parallel: 1
+
+maven-test:
+  stage: build-test
+  image: maven-3.9.0-jdk-21
+  script:
+    - cd sample-java-app
+    - mvn test
+  parallel: 1
+
+
+
+stages:
+  - build-test
+
+maven-build:
+  stage: build-test
+  image: maven-3.9.0-jdk21
+  script:
+    - git clone https://github.com/Pathnex-java-app.git
+    - cd samlpe-java-app
+    - mvn clean compile
+  parallel: 1
+
+maven-test:
+  stage: build-test
+  image: maven-3.9.0-jdk-21
+  script:
+    - cd sample-java-app
+    - mvn test
+  parallel: 1
+
+
+
+
+stages:
+  - build-test
+
+maven-build:
+  stage: build-test
+  image: maven-3.9.0-jdk21
+  script:
+    - git clone https://github.com/Pathnex-java-app.git
+    - cd samlpe-java-app
+    - mvn clean compile
+  parallel: 1
+
+maven-test:
+  stage: build-test
+  image: maven-3.9.0-jdk-21
+  script:
+    - cd sample-java-app
+    - mvn test
+  parallel: 1
+
+
+

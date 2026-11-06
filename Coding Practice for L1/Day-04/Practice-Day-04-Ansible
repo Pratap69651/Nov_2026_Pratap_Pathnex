@@ -1,0 +1,86 @@
+# Day 04 — More Packages, Key Pair, Service
+
+## 🔹 Ansible — Install Multiple Packages
+
+---
+- name: Install packages for Pathnex
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install tools
+      yum:
+        name:
+          - git
+          - wget
+        state: present
+
+
+- name: Install Multipple packages
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: multiple packages
+      yum:
+	name:
+	  - git
+	  - wget
+	  - curl
+	state: present
+
+- name: Install packages
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Multiple packages
+      yum:
+	name:
+	  - git
+	  - curl
+	  - wget
+	state: present
+
+- name: INstall Multiple Packages
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: packages
+      yum:
+	name: 
+	  - git
+	  - curl
+	  - wget
+	state: present
+
+
+
+- anme: Install mutilple package
+  hosts: all
+  become: yes
+  tasks: 
+    - name: packages
+      yum:
+        name:
+          - git
+          - curl
+          - wget
+        state: present
+
+
+
+- name: install multiple packages
+  hosts: all
+  become: yes
+  tasks:
+    - name: packages
+      yum:
+        name:
+          - git
+          - curl
+          - wget
+       state: present
+
+

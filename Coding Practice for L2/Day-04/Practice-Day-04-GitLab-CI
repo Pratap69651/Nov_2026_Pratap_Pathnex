@@ -1,0 +1,133 @@
+ GitLab CI/CD — Basic Pipeline
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo "Building project"
+
+test:
+  stage: test
+  script:
+    - echo "Running tests"
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying application"
+
+
+
+#### Basic Pipeline
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script: 
+    - echo "Building projects"
+
+test:
+  stage: test
+  script:
+    - echo "Running tests"
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying application"
+
+
+
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo "Building project"
+
+test:
+  stage: test
+  script:
+    - echo "running tests"
+
+deploy:
+  stage: deploy
+  script:
+    - echo " Deployinig application"
+
+
+
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo "Buildnig projects"
+
+test:
+  stage: test
+  script:
+    - echo "Running tests"
+
+deploy:
+  stage: deploy
+  script:
+    - echo " deploynig appliaction"
+
+
+
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo " Builing projects"
+
+test:
+  stage: test
+  script:
+    - echo "Running test"
+ 
+deploy:
+  stage: deploy
+  script:
+    - echo " deploynig app"
+
+
+
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo "Building proejcts"
+
+test:
+  stage: test
+  script:
+    - echo "test"
+
+deploy:
+  stage: deploy
+  script:
+    - echo "deploynig apps"
+
+

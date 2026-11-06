@@ -1,0 +1,76 @@
+## 🔹 Terraform (broken)
+
+resource "aws_instance" "BrokenEC2" {
+  ami = "ami-0xyz"
+  instance_type = t2.micro
+tags {
+ Name = "Broken"
+}
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_insatnce" "BrokenEC2" {
+  ami = "amnhu6154289jkiuh90"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_insatnce" "PathnexEC2" {
+  ami = "sgfa254167mjiki09"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "Pathnex-EC2"
+  }
+}
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_instance" "ec2" {
+  ami = "ami-hdjkf98746ty5hr"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+
+rpovider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_instance" "ec2" {
+  ami = "ami-kjcnbfh7864539"
+  instance_type = "t3.medium"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+
+
+provider "aws" {
+  region = "ap-south-1"
+}
+resource "aws_instance" "ec2" {
+  ami = "ami-njdbchjdk0984657yhju"
+  instance_type  =  "t2.micro"
+  tags = {
+    Name = "ec2"
+  }
+}
+
+
