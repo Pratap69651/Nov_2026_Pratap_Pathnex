@@ -1,0 +1,96 @@
+## 🔹 Ansible — Install Docker
+
+```yaml
+- name: Install Docker
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install Docker
+      yum:
+        name: docker
+        state: present
+    - name: Start Docker
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+
+
+- name: Install Docker
+  hosts: all
+  become: yes
+  tasks:
+    - name: install docker
+      yum:
+        name: docker
+        state: present 
+    - name: Start 
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+
+
+- name: Install Docker
+  hosts: all
+  become: yes
+  tasks: 
+    - name: Install
+      yum:
+        name: docker
+        state: present
+    - name: Start
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+
+- name: Install Docker and Start 
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install
+      yum:
+        name: docker
+        state: present
+    - name: start
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+
+- name: Install and Start Docker
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install
+      yum:
+        name: dokcer
+        state: present
+    - name: Start
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+
+- name: Install and Docker
+  hosts: all
+  become: yes
+  tasks: 
+    - name: Install
+      yum:
+        name: docker
+        state: present
+    - name: Start
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+
+
