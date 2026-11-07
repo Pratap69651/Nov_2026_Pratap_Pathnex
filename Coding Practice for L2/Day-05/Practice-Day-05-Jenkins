@@ -1,0 +1,169 @@
+## 🔹 Jenkinsfile — With Git Integration and Testing
+
+```groovy
+pipeline {
+    agent any
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git 'https://github.com/pathnex/sample-repo.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Building project from Git repository'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Running unit tests'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying application'
+            }
+        }
+    }
+}
+
+
+pipeline {
+  agent any
+  stages {
+    stage('Clone Repo') {
+      steps {
+        git clone 'https://github.com/Pathnex/sample-repo.git'
+      }
+    }
+    stage('Build') {
+      steps {
+        echo 'Build project from git repo'
+      }
+    }
+    stage('Test") {
+      steps {
+        echo 'Tetst'
+      }
+    }
+    stage('Deploy')  {
+      steps {
+        echo 'Deployning application'
+      }
+    }
+  }
+}
+
+
+
+pipeline {
+  agent any 
+  stages {
+    stage('clone repo') {
+      steps {
+        git clone 'https://github.com/Pathnex/sample-app.git'
+      }
+    }
+    stage('Build') {
+      steps {
+        echo 'Build project from git'
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'Test'
+      }
+    }
+    stage('Deploy') {
+      steps {
+        echo 'deploying application'
+      }
+    }
+  }
+}
+
+
+
+pipeline {
+  agent any 
+  stages {
+    stage('Clone repo') {
+      steps {
+        git clone 'https://gitub.com/Pathnex/sample-repo.git'
+      }
+    }
+    stage('Build') {
+      steps {
+        echo 'Build project from git '
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'Testing Application'
+      }
+    }
+     stage('Deploy') {
+      steps {
+        echo 'Deploying app'
+      }
+    } 
+  }
+}
+
+
+
+pipeline {
+  agent any 
+  stages {
+    stage('Clone Repo') {
+      steps {
+        git clone 'https://github.com/Pathnex/sample-repo.git'
+      }
+    }
+    stage('Build') {
+      steps {
+        echo ' Build project from git'
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'Test app'
+      } 
+    }
+    stage('Deploy') {
+      steps {
+      echo ' Deploy'
+      } 
+    } 
+  }
+}
+
+
+
+pipeline {
+  agent any 
+  stages {
+    stage('Clone Repo') {
+      steps {
+        git clone 'https://github.com/Pathnex/sample-repo.git'
+      }
+    }
+    stage('Build') {
+      steps {
+        echo 'Build projects from git'
+      }
+    }
+    stage('Test') {
+      steps {
+        echo 'Test'
+      }
+    }
+    stage('deploy') {
+      steps {
+        echo 'Deploy App'
+      }
+    }
+  }
+}
+
+
