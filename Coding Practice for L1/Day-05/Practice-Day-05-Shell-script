@@ -1,0 +1,45 @@
+#!/bin/bash
+df -h
+lsblk
+top
+ ctrl+c
+
+
+#!/bin/bash
+df -h
+ls -la
+lsblk
+
+
+#!/bin/bash
+df -h
+lsblk
+ls -la
+ll
+
+
+#!/bin/bash
+df -h 
+lsblk
+ls -la
+ll
+ls
+
+#!/bin/bash
+df -h
+lsblk
+ls -la
+ls
+
+
+#!/bin/bash
+df -h
+lsblk
+lscpu
+
+
+#!/bin/bash
+df -h
+ls -la
+ls
+

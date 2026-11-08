@@ -1,0 +1,44 @@
+#!/bin/bash
+df -h
+lsblk
+cd
+ls
+ls -la
+lscpu
+pwd
+
+#!/bin/bash
+mkdir
+touch
+vim
+cd
+cat 
+head
+
+#!/bin/bash
+top
+ps
+ps aux
+
+
+#!/bin/bash
+tail
+chown
+chgrp
+chmod
+
+#!/bin/bash
+chmod 755
+chmod 621
+chmod 644
+
+#!/bin/bash
+df -h
+lsblk
+
+
+#!/bin/bash
+df -h
+lscpu
+
+
