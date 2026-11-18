@@ -1,0 +1,19 @@
+🔹 Docker
+# COPY vs ADD
+FROM ubuntu
+COPY pathnex-file.txt /opt/pathnex/files/
+ADD pathnex.tar.gz /opt/pathnex/extracted/
+
+
+
+FROM ubuntu
+COPY pathnex-file.txt /opt/pathnex/files/
+ADD pathnex.tar.gz /opt/pathnex/extracted/
+
+
+FROM ubuntu
+COPY pathnex-file.txt /opt/pathnex/files/
+ADD pathnex.tar.gz /opt/pathnex/extracted/
+
+
+

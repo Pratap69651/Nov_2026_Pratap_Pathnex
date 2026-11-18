@@ -1,0 +1,57 @@
+🔹 Jenkinsfile — Deploy to Kubernetes
+pipeline {
+    agent any
+    stages {
+        stage('Deploy to Kubernetes') {
+            steps {
+                script {
+                    sh 'kubectl apply -f deployment.yaml'
+                }
+            }
+        }
+    }
+}
+
+
+#### Jenkins pipelines - deploy to kubernetes
+pipeline {
+  agent any
+  stages {
+    stage('Deploy to Kubernetes') {
+      steps {
+        script {
+          sh 'kubectl apply -f deployment.yaml'
+        }
+      }
+    } 
+  }
+}
+
+
+pipeline {
+  agent any
+  stages {
+    stage('Deploy to Kubernetes') {
+      steps {
+        script {
+          sh 'kubectl apply -f deployment.yaml'
+        }
+      }
+    }
+  }
+}
+
+
+pipeline {
+  agent any
+  stages {
+    stage('Deploy to Kubernetes') {
+      steps {
+        script {
+          sh 'kubectl apply -f deployment.yaml'
+        }
+      }
+    }
+  }
+}
+

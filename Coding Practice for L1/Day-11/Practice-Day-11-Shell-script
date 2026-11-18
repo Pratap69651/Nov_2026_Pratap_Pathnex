@@ -1,0 +1,38 @@
+## 🔹 Shell Script — Function Example
+
+#!/bin/bash
+
+greet() {
+  echo "Welcome to Pathnex DevOps Training"
+}
+
+greet
+
+
+#!/bin/bash 
+
+greet() {
+  echo "Welcome to Pathnex DevOPs Training"
+}
+
+greet
+
+
+#!/bin/bash
+
+greet() {
+  echo "Welcome to Pathnex DevOPs Training"
+}
+
+Greet
+
+
+#!/bin/bash
+
+greet() {
+  echo "Welcome to Pathnex DevOps Training"
+}
+
+greet
+
+

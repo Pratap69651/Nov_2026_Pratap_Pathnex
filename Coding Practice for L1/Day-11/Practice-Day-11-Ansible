@@ -1,0 +1,72 @@
+## 🔹 Ansible — Install MariaDB
+
+---
+- name: Install MariaDB for Pathnex
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install MariaDB
+      yum:
+        name: mariadb-server
+        state: present
+
+    - name: Start MariaDB
+      service:
+        name: mariadb
+        state: started
+        enabled: yes
+
+
+
+- name: Install maria-Db server 
+  hosts: all
+  become: yes
+ 
+  tasks:
+    - name: Install Maria-DB 
+      yum:
+	name: mariadb-server
+	state: present
+
+    - name: start mariadb
+      service:
+	name: mariadb-server
+	state: started
+	enabled: yes
+
+
+- name: Install maria db
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install Maria dB
+      yum:
+	name: mariadb-server
+	state: present
+
+    - name: start
+      service:
+	name: mariadb-server
+	state: started
+	enabled: yes
+
+
+- name: Install Maria DB 
+  hosts: all
+  become: yes
+ 
+  tasks:
+    - name: Install Maria db
+      yum:
+	name: mariadb-server
+	state: present
+
+    - name: Start
+      service:
+	name: mariadb-server
+	state: started
+	enabled: yes
+
+

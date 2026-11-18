@@ -1,0 +1,56 @@
+🔹 Docker
+# Node.js Application (JavaScript)
+console.log("Hello Pathnex");
+
+# Docker File
+FROM node:18
+WORKDIR /opt/pathnex/node-app
+COPY app.js /opt/pathnex/node-app/
+CMD ["node", "/opt/pathnex/node-app/app.js"]
+
+# Real Path
+/opt/pathnex/node-app
+
+
+####
+ NOde.js Application (Java Script) 
+console.log ("Hello Pathnex")
+
+
+FROM node:18
+WORKDIR /opt/pathnex/node-app
+COPY app.js  /opt/pahtnex/node-app/
+CMD ["node", "/opt/pathnex/node-app/app.js"]
+
+
+FROM node:18
+WOEKDIR /opt/pathnex/node-app
+COPY app.js  /opt/pathnex/node-app/
+CMD ["node", "/opt/pathnex/node-app/app.js"]
+
+
+FROM node:18
+WORKDIR /opt/pathnex/node-app
+COPY app.js  /opt/pathnex/node-app/
+CMD ["node", "/opt/pathnex/node-app/app.ja"]
+
+
+FROM node:18
+WORKDIR /opt/pathnex/node-app/
+COPY app.js  /opt/pathnex/node-app/app.js/
+CMD ["node", "/opt/apthnex/node-app/app.js"]
+
+
+
+FROM nodea;18
+WORKDIR /opt/pathnex/node-app
+COPY app.js /opt/pathnex/node-app/
+CMD ["node", "/opt/pathnex/node-app/app.js"]
+
+
+FROM node:18
+WORKDIR /opt/pathnex/node-app/
+COPY app.js /opt/pathnex/node-app/
+CMD ["node", "/opt/pathnex/node-app/app.js"]
+
+

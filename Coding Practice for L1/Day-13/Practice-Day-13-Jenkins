@@ -1,0 +1,74 @@
+## 🔹 Jenkins Pipeline — Matrix Build
+You will learn how to **run the same build on multiple environments**.
+
+pipeline {
+    agent any
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+    matrix {
+        axes {
+            axis {
+                name 'JAVA_VERSION'
+                values '8', '11', '17'
+            }
+        }
+        stages {
+            stage('Build') {
+                steps {
+                    sh "echo Building with Java $JAVA_VERSION"
+                }
+            }
+        }
+    }
+}
+
+
+pipeline {
+    agent any
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+    matrix {
+        axes {
+            axis {
+                name 'JAVA_VERSION'
+                values '8', '11', '17'
+            }
+        }
+        stages {
+            stage('Build') {
+                steps {
+                    sh "echo Building with Java $JAVA_VERSION"
+                }
+            }
+        }
+    }
+}
+
+
+
+pipeline {
+    agent any
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+    matrix {
+        axes {
+            axis {
+                name 'JAVA_VERSION'
+                values '8', '11', '17'
+            }
+        }
+        stages {
+            stage('Build') {
+                steps {
+                    sh "echo Building with Java $JAVA_VERSION"
+                }
+            }
+        }
+    }
+}
+
+
+

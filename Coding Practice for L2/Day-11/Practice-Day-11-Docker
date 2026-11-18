@@ -1,0 +1,23 @@
+🔹 Docker
+# EXPOSE & Port Mapping
+FROM nginx
+EXPOSE 80
+docker run -d -p 8080:80 nginx
+
+
+
+FROM nginx
+EXPOSE 80
+docker run -d -p 8080:80 nginx
+
+
+FROM nginx
+EXPOSE 80
+docker run -d -p 8080:80 nginx
+
+
+FROM nginx
+EXPOSE 80
+dokcer run -d -p 8080:80 nginx
+
+
