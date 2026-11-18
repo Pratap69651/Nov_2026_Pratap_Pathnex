@@ -1,0 +1,92 @@
+## 🔹 Jenkins Pipeline — Archive Artifacts
+You will learn how to **save build artifacts for future use**.
+
+pipeline {
+    agent any
+    environment {
+    - cd sample-java-app
+    - mvn clean package
+  artifacts:
+    paths:
+        INSTITUTE_NAME = "Pathnex"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/Pathnex/sample-java-app.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+        stage('Archive') {
+            steps {
+                archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+            }
+        }
+    }
+}
+
+
+pipeline {
+    agent any
+    environment {
+    - cd sample-java-app
+    - mvn clean package
+  artifacts:
+    paths:
+        INSTITUTE_NAME = "Pathnex"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/Pathnex/sample-java-app.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+        stage('Archive') {
+            steps {
+                archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+            }
+        }
+    }
+}
+
+
+
+
+
+pipeline {
+    agent any
+    environment {
+    - cd sample-java-app
+    - mvn clean package
+  artifacts:
+    paths:
+        INSTITUTE_NAME = "Pathnex"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/Pathnex/sample-java-app.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+        stage('Archive') {
+            steps {
+                archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+            }
+        }
+    }
+}
+

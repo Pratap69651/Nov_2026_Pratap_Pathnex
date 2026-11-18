@@ -1,0 +1,24 @@
+### Check Monitoring with Top command
+
+#!/bin/bash
+top
+
+#!/bin/bash
+top
+
+#!/bin/bash
+top
+
+#!/bin/bash
+top 
+
+#!/bin/bash
+top
+
+#!/bin/bash
+top
+
+#!/bin/bash
+top
+
+
