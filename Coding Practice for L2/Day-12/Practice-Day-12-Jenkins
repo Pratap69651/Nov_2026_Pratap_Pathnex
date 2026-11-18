@@ -1,0 +1,91 @@
+🔹 Jenkinsfile — Implement Parallel Stages
+pipeline {
+    agent any
+    stages {
+        stage('Build & Test') {
+            parallel {
+                stage('Build') {
+                    steps {
+                        echo 'Building project...'
+                    }
+                }
+                stage('Test') {
+                    steps {
+                        echo 'Running tests...'
+                    }
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+
+                echo 'Deploying project...'
+  - build
+  - test
+            }
+        }
+    }
+}
+
+
+pipeline {
+    agent any
+    stages {
+        stage('Build & Test') {
+            parallel {
+                stage('Build') {
+                    steps {
+                        echo 'Building project...'
+                    }
+                }
+                stage('Test') {
+                    steps {
+                        echo 'Running tests...'
+                    }
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+
+                echo 'Deploying project...'
+  - build
+  - test
+            }
+        }
+    }
+}
+
+
+
+
+pipeline {
+    agent any
+    stages {
+        stage('Build & Test') {
+            parallel {
+                stage('Build') {
+                    steps {
+                        echo 'Building project...'
+                    }
+                }
+                stage('Test') {
+                    steps {
+                        echo 'Running tests...'
+                    }
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+
+                echo 'Deploying project...'
+  - build
+  - test
+            }
+        }
+    }
+}
+
+
+

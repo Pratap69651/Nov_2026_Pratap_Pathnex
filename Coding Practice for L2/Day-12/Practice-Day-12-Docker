@@ -1,0 +1,31 @@
+
+🔹 Docker
+# Docker Volumes
+FROM ubuntu
+VOLUME ["/opt/pathnex/data"]
+CMD ["sleep", "1000"]
+
+# Real Path
+/opt/pathnex/data
+
+# Bash command
+docker volume create pathnex-volume
+
+
+
+FROM ubuntu
+VOLUME ["/opt/pathnex/data"]
+CMD ["sleep", "1000"]
+
+
+
+FROM ubuntu
+VOLUME ["/opt/pathnex/data"]
+CMD ["sleep", "1000"]
+
+
+FROM ubuntu
+VOLUME ["/opt/pathnex/data"]
+CMD ["sleep", "500"]
+
+
