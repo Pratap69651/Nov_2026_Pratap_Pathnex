@@ -1,0 +1,9 @@
+#!/bin/bash
+
+SOURCE="/var/log"
+DEST="/backup/pathnex-$(date +%f).tar.gz"
+
+tar -czf $DEST $SOURCE
+echo "Bachkup Craeted At: $DEST"
+
+

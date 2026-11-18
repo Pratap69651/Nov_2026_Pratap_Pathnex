@@ -1,0 +1,67 @@
+🔹 Jenkinsfile — Multi-Branch Pipeline with Docker Build
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    docker.build('pathnex-app')
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    kubectl apply -f kubernetes/deployment.yaml
+                }
+            }
+        }
+    }
+}
+
+
+
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    docker.build('pathnex-app')
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    kubectl apply -f kubernetes/deployment.yaml
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    docker.build('pathnex-app')
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    kubectl apply -f kubernetes/deployment.yaml
+                }
+            }
+        }
+    }
+}
+
