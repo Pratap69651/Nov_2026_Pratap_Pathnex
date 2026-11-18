@@ -1,0 +1,104 @@
+## 🔹 GitLab CI — Debugging
+You will learn how to **handle job failures and exit codes**.
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  image: maven:3.8.1-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile || { echo "Compile failed"; exit 1; }
+
+test:
+  stage: test
+  image: maven:3.8.1-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn test || { echo "Tests failed"; exit 1; }
+
+
+
+stages: 
+  - build 
+  - test
+
+build:
+  stage: build
+  image: maven:3.8.1-jdk-17
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile | { echo "Compile failed"; exit 1; }
+
+test:
+  stage: test
+  image: maven:3.8.1-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn test | { echo "Tests failed"; exit 1; }
+
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  image: maven-3.8.2-jdk-17
+  script:
+    - git clone https://github.com/Pathenx/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile | { echo "Compile failed"; exit 1; }
+
+test:
+  stage: test
+  image: maven:3.8.1-jdk-17
+  script:
+    - cd sample-java-app
+    - mvn test || { echo "Tests failed"; exit 1; }
+
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  image: maven-3.9.0-jdk-21
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile
+
+test:
+  stage: test
+  image: maven-3.8.1-jdk-21
+  script:
+    - cd sample-java-app
+    - mvn test
+
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  image: maven:3.9.0-jdk-21
+  script:
+    - git clone https://github.com/Pathnex/sample-java-app.git
+    - cd sample-java-app
+    - mvn clean compile
+
+test:
+  stage: test
+  image: maven-3.9.0-jdk-21
+  script:
+    - cd sample-java-app
+    - mvn test
+
+

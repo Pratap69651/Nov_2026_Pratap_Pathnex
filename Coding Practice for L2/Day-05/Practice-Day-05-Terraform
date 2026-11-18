@@ -1,0 +1,86 @@
+ Terraform — EC2 with Tags and Volume
+resource "aws_instance" "PathnexEC2" {
+  ami           = "ami-0abcd1234abcd1234"
+  instance_type = "t2.medium"
+
+  tags = {
+    Name = "Pathnex-Server"
+  }
+
+  ebs_block_device {
+    device_name = "/dev/sdh"
+    volume_size = 50
+  }
+}
+
+
+### Create ec2 with tags and volume 
+resource "aws_instance" "ec2" {
+  ami = "sdfmk092455"
+  instance_type = "t2.medium"
+  tags = {
+    Name = "Server"
+  }
+  ebs_block_device {
+    device_name = "/dev/sdh"
+    volume_size = 50
+  }
+}
+
+
+resource "aws_Instance" "ec2" {
+  ami = "sdsdfmllko09kl98"
+  instance_type  = "t2.medium"
+  tags = {
+    Name = "ec2"
+  }
+  ebs_block_device {
+    device_name = "/dev/sdh"
+    volume_size = 50
+   }
+}
+
+
+
+resource "aws_instance" "ec2" {
+  ami = "fdsjkloi0987ml"
+  instance_type = "t2.mediiium"
+  tags = {
+    Name = "ec2"
+  }
+  ebs_block_device {
+    device_name = "/dev/sdh"
+    volume_size = 50
+  }
+}
+
+
+resource "aws_instance" "ec2" {
+  ami = "sdfgrjlko09"
+  instance_type = t2.medium"
+  tags = {
+    Name = "ec2" 
+  } 
+  ebs_block_device {
+    device_name = "/dev/sdh"
+    volume_size = 50
+  } 
+}
+
+
+
+respurce "aws_instance" "ec2"  {
+  ami =  "sdlj89053"
+  instance_type = t2.medium"
+  tags = {
+    Name = "ec2" 
+  }
+  ebs_block_device {
+    device_name = "/dev/sdh"
+    volume_size = 50
+  }
+}
+
+
+
+

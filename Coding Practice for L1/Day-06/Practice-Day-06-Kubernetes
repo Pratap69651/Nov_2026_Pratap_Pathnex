@@ -1,0 +1,119 @@
+## 🔹 Kubernetes (broken)
+
+apiVersion v1
+kind Pod
+metadata:
+ name pathnex
+spec
+ containers:
+   - name app
+     image nginx
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex
+spec:
+  containers:
+    - name: app
+      image: nginx;latest
+      ports:
+	- containerPort: 80	
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex
+spec:
+  containers:
+    - name: app
+      image: nginx:latest
+      ports:
+	- containerport: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex
+spec:
+  containers:
+    - name: app
+      image: nginx
+      ports:
+	- containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-pod
+spec:
+  containers:
+    - name: app
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: app
+      image: nginx:latest
+      ports:
+	- containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: app
+      image: nginx:latest
+      ports:
+	- containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex
+spec:
+  containers:
+    - name: app
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx
+      ports: 
+        - containerPort: 80
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx
+      ports:
+        - containerPort: 80
+
+
+

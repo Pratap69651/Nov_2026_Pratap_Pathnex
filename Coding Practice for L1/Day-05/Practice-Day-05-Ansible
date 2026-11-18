@@ -1,0 +1,129 @@
+# Day 05 — Handlers, User-Data, Resource Limits
+
+## 🔹 Ansible — Handler to Restart Nginx
+
+---
+- name: Manage Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Update config file
+      copy:
+        src: index.html
+        dest: /usr/share/nginx/html/index.html
+      notify: Restart Nginx
+
+  handlers:
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
+
+- name: Manage Ngnx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Update config file
+      copy:
+	src: index.html
+	dest: /usr/share/gninx/html/index.html
+      notify: Restart Nginx
+
+  handlers:
+    - name: Restart Nginx
+      service:
+	name: nginx
+	state: restarted
+
+
+
+- name: Manage Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Update config file
+      copy:
+	src: index.html
+	dest: /usr/share/nginx/html/index.html
+      notify: Restart Nginx
+
+  handlers:
+    - name: Restart Nginx
+      service:
+	name: nginx
+	state: restarted
+
+
+- name: Manage Nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Update config file 
+      copy:
+	src: index.html
+	dest: /usr/share/nginx/html/index.html
+      notify: Restart Nginx
+  
+  handlers:
+    - name: Restart Nginx
+      service:
+	name: nginx
+	state: restarted
+
+
+- name: Manage Nignx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Update config file
+      copy:
+	src: index.html
+	dest: /usr/share/nginx/html/index.html
+      notify: Restart Nginx
+
+  handlers:
+    - name: Restart Nginx
+      service:
+	name: nginx
+	state: restarted
+
+
+
+- name: Manage Nginx
+  hosts: all
+  become: yes
+  tasks:
+    - name: Update config file
+      copy:
+        src: index.html
+        dest: /usr/share/nginx/html/index.html
+      notify: Restart Nginx
+  handlers:
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
+
+
+- name: Manage Nginx
+  hosts: all
+  become: yes
+  tasks: 
+    - name: Update Config file
+      copy:
+        src: index.html
+        dest: /usr/share/nginx/html/index.html
+      notify: Restart Nginx
+
+  handlers: 
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
+
+
