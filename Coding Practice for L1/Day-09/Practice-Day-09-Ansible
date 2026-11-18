@@ -1,0 +1,47 @@
+## 🔹 Ansible — Use Jinja2 Template
+
+---
+- name: Deploy template for Pathnex
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Copy template file
+      template:
+        src: pathnex.conf.j2
+        dest: /etc/pathnex.conf
+
+
+- name: Deploy template for pathnex
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Copy template file
+      template:
+	src: pathnex.conf.j2
+	dest: /etc/pathnex.conf
+
+
+- name: Deploy template file
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: copy template file
+      template:
+	src: pathnec.conf.j2
+	dest: /etc/pathnex.conf
+
+
+- name: deploy template file
+  hosts: all
+  become: yes
+  
+  tasks:
+    - name: copy template file
+      template:
+	src: pathnex.conf.j2
+	dest: /etc/pathnex.conf
+
+

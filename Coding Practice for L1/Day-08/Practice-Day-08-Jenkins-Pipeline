@@ -1,0 +1,145 @@
+## 🔹 Jenkins Pipeline — Conditional Execution
+You will learn how to **run stages based on branch or parameter conditions**.
+
+pipeline {
+    agent any
+    parameters {
+        string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Deployment Environment')
+    }
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Pathnex/sample-java-app.git'
+            }
+        }
+        stage('Build') {
+            when {
+                branch 'main'
+            }
+            steps {
+                sh 'mvn clean compile'
+            }
+        }
+        stage('Deploy') {
+            when {
+                expression { params.ENVIRONMENT == 'dev' }
+            }
+            steps {
+                sh 'echo "Deploying to $ENVIRONMENT by $INSTITUTE_NAME"'
+            }
+        }
+    }
+}
+
+
+
+
+
+pipeline {
+    agent any
+    parameters {
+        string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Deployment Environment')
+    }
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Pathnex/sample-java-app.git'
+            }
+        }
+        stage('Build') {
+            when {
+                branch 'main'
+            }
+            steps {
+                sh 'mvn clean compile'
+            }
+        }
+        stage('Deploy') {
+            when {
+                expression { params.ENVIRONMENT == 'dev' }
+            }
+            steps {
+                sh 'echo "Deploying to $ENVIRONMENT by $INSTITUTE_NAME"'
+            }
+        }
+    }
+}
+
+
+
+pipeline {
+    agent any
+    parameters {
+        string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Deployment Environment')
+    }
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Pathnex/sample-java-app.git'
+            }
+        }
+        stage('Build') {
+            when {
+                branch 'main'
+            }
+            steps {
+                sh 'mvn clean compile'
+            }
+        }
+        stage('Deploy') {
+            when {
+                expression { params.ENVIRONMENT == 'dev' }
+            }
+            steps {
+                sh 'echo "Deploying to $ENVIRONMENT by $INSTITUTE_NAME"'
+            }
+        }
+    }
+}
+
+
+
+
+pipeline {
+    agent any
+    parameters {
+        string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Deployment Environment')
+    }
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Pathnex/sample-java-app.git'
+            }
+        }
+        stage('Build') {
+            when {
+                branch 'main'
+            }
+            steps {
+                sh 'mvn clean compile'
+            }
+        }
+        stage('Deploy') {
+            when {
+                expression { params.ENVIRONMENT == 'dev' }
+            }
+            steps {
+                sh 'echo "Deploying to $ENVIRONMENT by $INSTITUTE_NAME"'
+            }
+        }
+    }
+}
+
+
