@@ -1,0 +1,36 @@
+🔹 GitLab CI/CD — Deploy to Kubernetes
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - kubectl apply -f kubernetes/deployment.yaml
+
+### Deploy to Kubernetes
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - kubectl apply -f kubernetes/deployment.yaml
+
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script: 
+    - kubeneetes apply -f kubernetes/deployment.yaml
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - kubeneetes apply -f kubernetes/deployment.yaml
+
+

@@ -1,0 +1,55 @@
+## 🔹 Kubernetes — Sidecar Container
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-sidecar
+spec:
+  containers:
+    - name: main
+      image: nginx
+    - name: sidecar
+      image: busybox
+      command: ["sh", "-c", "echo Sidecar running; sleep 3600"]
+
+
+paiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-sidecar
+spec:
+  containers:
+    - name: main
+      image: nginx
+    - name: sidecar
+      image: nginx
+      command: ["sh", "-c", "echo Sidecar running; sleep 3600"]
+
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-sidecar
+spec:
+  containers:
+    - name: main
+      image: nginx
+    - name: sidecar
+      image: nginx
+      command: ["sh", "-c", "echo Sidecar running; sleep 3600"]
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pathnex-sidecar
+spec:
+  containers:
+    - name: main
+      image: nginx
+    - name: sidecar
+      image: nginx
+      command: ["sh", "-c", " echo Sidecar running : sleep 3600"]
+
+

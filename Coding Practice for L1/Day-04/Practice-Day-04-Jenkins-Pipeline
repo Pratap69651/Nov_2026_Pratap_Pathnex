@@ -1,0 +1,131 @@
+# Parallel Builds
+## 🔹 Jenkins Pipeline — Parallel Build & Test
+You will learn how to **run build and test in parallel**.
+
+pipeline {
+    agent any
+    stages {
+        stage('Parallel Tasks') {
+            parallel {
+                stage('Build') {
+                    steps {
+                        sh 'mvn clean compile'
+                    }
+                }
+                stage('Test') {
+                    steps {
+                        sh 'mvn test'
+                    }
+                }
+            }
+        }
+    }
+}
+
+pipeline {
+  agent any
+  stages {
+    stage('Parallel Tasks') {
+      parallel {
+	stage('Build') {
+	  steps {
+	    sh 'mvn clean compile'
+	    }
+	  }
+	stage('Test') {
+	  steps {
+	    sh 'mvn test'
+	    }
+	  }
+	}
+     }
+  }
+}
+
+
+
+pipeline {
+  agent any 
+  stages {
+    stage('Parallel Tasks') {
+      parallel {
+	stage('build') {
+	  steps {
+	    sh 'mvn clean compile'
+	      }
+	   }
+	stage('Test") {
+	  steps {
+	    sh 'mvn test'
+	    	}
+	     }
+	}
+     }
+   }
+}
+
+
+pipeline {
+  agent any
+  stages {
+    stage('Parallel Tasks') {
+      parallel {
+	stage('Build') {
+	  steps {
+	    sh 'mvn clen compile'
+	    	}
+	     }
+	stage('Test') {
+	  steps {
+	    sh 'mvn test'
+	  }
+	}
+      }
+    }
+  }
+}
+
+
+
+pipeline {
+  agnet any 
+  stages {
+    stage('Parallel Tasks') {
+      parallel {
+	stage('Build') {
+	  steps {
+	    sh 'mvn clean compile'
+	 }
+	}
+	stage('Tets') {
+	  steps {
+	    sh 'mvn test'
+	 }
+	}
+      }
+    }
+  }
+}
+
+
+pipeline {
+  agent any 
+  stages {
+    stage('Parallel Tasks') {
+      parallel {
+        stage('Build') {
+          steps {
+            sh 'mvn clean package'
+          }
+        }
+        stage('Test') {
+          steps {
+            sh 'mvn test'
+          }
+        }
+      }
+    }
+  }
+}
+
+

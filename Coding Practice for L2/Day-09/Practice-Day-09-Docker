@@ -1,0 +1,25 @@
+🔹 Docker
+# Environment Variables
+FROM ubuntu:22.04
+ENV INSTITUTE=Pathnex
+ENV COURSE=DevOps
+CMD echo "$INSTITUTE - $COURSE"
+
+
+###Environment variables
+FROM ubuntu:24.04
+ENV INSTITUTE=Pathnex
+ENV COURSE=DevOps
+CMD echo "$INSTITUTE - $COURSE"
+
+FROM ubuntu:24.04
+ENV INSTITUTE=Pathnex
+ENV COURSE=DevOps
+CMD echo "$INSTITUTE - $COURSE"
+
+FROM ubuntu:24.04
+ENV INSTITUTE=Pathnex
+ENV COURSE=DevOps
+CMD echo "$INSTITUTE - $COURSE"
+
+
